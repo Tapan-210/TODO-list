@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* heading=========================================== */
+#heading{
+    text-align: center;
+    padding: 20px;
+}
+input,button{
+    padding: 10px;
+    text-align: center;
+    background-color: burlywood;
+    color:whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+.todocontainer,.gridcontainer{
+
+   
+    display: grid;
+    grid-template-columns:250px 220px 100px;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+ align-items: center;
+ align-content: center;
+
+ 
+}
+
+#todoinput,#tododate,#btn,#delete{
+    font-size: 15px;
+    padding: 15px;
+    
+}
+.dlt{
+    background-color: red;
+    border-radius: 15px;
+      /* transform: rotate(360deg); */
+      transform: scale(0.8);
+      /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+      transition-duration: 1s;
+      font-size: 18px;
+      transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+      cursor: pointer;
+
+}
+.add{
+    background-color: green;
+    border-radius: 10px;
+      /* transform: rotate(360deg); */
+      transform: scale(0.8);
+      /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+      transition-duration: 1s;
+      font-size: 18px;
+      transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+      cursor: pointer;
+    
+} 
+.dlt:hover{
+    /* transform: rotate(360deg); */
+    transform: scale(1.2);
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    transition-duration: 1s;
+    font-size: 18px;
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    border: none;
+
+}
+.add:hover{
+    /* transform: rotate(360deg); */
+    transform: scale(1.2);
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    transition-duration: 1s;
+    font-size: 18px;
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    border: none;
+    
+    
+
+}
